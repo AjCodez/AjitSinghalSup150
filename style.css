@@ -99,3 +99,16 @@ nav a:hover{
 .images img:hover{
     opacity: 0.5;
 }
+
+.middle{
+    background-image: url(./images/peter-conlan-LEgwEaBVGMo-unsplash.jpg);
+    background-size: cover;
+    text-align: ;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
