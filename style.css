@@ -54,10 +54,23 @@ nav a:hover{
     color: #29d9d5;
 }
 
+.container{
+    display: grid;
+  grid-template-areas:
+    'header header header'
+    'main main main'
+    'main main main';
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
 .top-box{
-    margin-top: 1%;
-    height: 80px;
-    display: block;
+    padding-left: 20px;
+    grid-area: header;
+    margin: 20px auto;
+    width: 80vw;
+    height: 85px;
     background-color:rgb(235, 220, 220);
     border-radius: 10px;
     overflow: auto;
@@ -69,4 +82,20 @@ nav a:hover{
 }
 .top-box p{
     font-size: small;
+}
+.images{
+    width: 90vw;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images img{
+    width: 400px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 300ms;
+}
+.images img:hover{
+    opacity: 0.5;
 }
