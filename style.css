@@ -98,8 +98,6 @@ nav a:hover{
 }
 .images img:hover{
     opacity: 0.5;
-    background-image: url(./images/cam.png);
-    z-index: 2;
 }
 
 .middle{
@@ -152,4 +150,8 @@ footer button:hover{
     background-color: #29d9d5;
     color: rgb(36, 13, 13);
     cursor: pointer;
+}
+.three input{
+    border-color: #29d9d5;
+    border-radius: 50px;
 }
