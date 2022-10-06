@@ -103,7 +103,8 @@ nav a:hover{
 .middle{
     background-image: url(./images/peter-conlan-LEgwEaBVGMo-unsplash.jpg);
     background-size: cover;
-    text-align: ;
+    text-align: center;
+    background-attachment: scroll;
 }
 
 footer{
