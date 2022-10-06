@@ -98,6 +98,8 @@ nav a:hover{
 }
 .images img:hover{
     opacity: 0.5;
+    background-image: url(./images/cam.png);
+    z-index: 2;
 }
 
 .middle{
@@ -105,6 +107,28 @@ nav a:hover{
     background-size: cover;
     text-align: center;
     background-attachment: scroll;
+    background-blend-mode: lighten;
+    color: white;
+}
+.middle h2{
+    color: #307b7a;
+}
+
+.middle button{
+    width: 120px;
+    margin: 15px 20px;
+    border-radius: 50px;
+    border-color: #29d9d5;
+    color: #29d9d5;
+    background-color: rgb(36, 13, 13);
+    transition: 0.5s;
+    /* transition-timing-function: ease-in-out; */
+    font-weight: bold;
+}
+.middle button:hover{
+    background-color: #29d9d5;
+    color: rgb(36, 13, 13);
+    cursor: pointer;
 }
 
 footer{
@@ -112,4 +136,20 @@ footer{
     display: flex;
     color: white;
     justify-content: space-around;
+}
+footer button{
+    width: 120px;
+    margin: 15px 20px;
+    border-radius: 50px;
+    border-color: #29d9d5;
+    color: #29d9d5;
+    background-color: rgb(36, 13, 13);
+    transition: 0.5s;
+    /* transition-timing-function: ease-in-out; */
+    font-weight: bold;
+}
+footer button:hover{
+    background-color: #29d9d5;
+    color: rgb(36, 13, 13);
+    cursor: pointer;
 }
